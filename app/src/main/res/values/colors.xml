@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="transparent">#969fffff</color>
+    <color name="textInputLayout">#96ffffff</color>
 
 </resources>
