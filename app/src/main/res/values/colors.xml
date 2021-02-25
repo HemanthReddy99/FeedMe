@@ -5,5 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="transparent">#969fffff</color>
     <color name="textInputLayout">#96ffffff</color>
+    <color name ="common_google_signin_btn_text_dark_default">#000000</color>
+    <color name="endblue">#0bcce6</color>
 
 </resources>

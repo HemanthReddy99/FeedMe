@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Register"></activity>
-        <activity android:name=".Login" >
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +24,7 @@
         </activity>
         <activity android:name=".ThirdActivity" />
         <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity"/>
-
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

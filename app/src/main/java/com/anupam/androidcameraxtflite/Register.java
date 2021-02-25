@@ -55,10 +55,27 @@ public class Register extends AppCompatActivity {
                 String pass = Spass.getText().toString();
                 String repass = Srepass.getText().toString();
 
-                if(email.equals("") || fname.equals("") || mname.equals("") || lname.equals("") || dob.equals("") || phno.equals("") || dept.equals("") || rollno.equals("") || cgpa.equals("") || add1.equals("") || add2.equals("") || add3.equals("") || pass.equals("") || repass.equals(""))
+                if(email.equals(""))
                 {
-                    Toast.makeText(getApplicationContext(), "One or more fields empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Email is a mandatory field", Toast.LENGTH_SHORT).show();
                 }
+                else if(fname.equals(""))
+                {
+                    Toast.makeText(getApplicationContext(), "First name is a mandatory field", Toast.LENGTH_SHORT).show();
+                }
+                else if(phno.equals(""))
+                {
+                    Toast.makeText(getApplicationContext(), "Phone no is mandatory field", Toast.LENGTH_SHORT).show();
+                }
+                else if(add1.equals(""))
+                {
+                    Toast.makeText(getApplicationContext(), "Address 1 is a mandatory field", Toast.LENGTH_SHORT).show();
+                }
+                else if(pass.equals("") || repass.equals(""))
+                {
+                    Toast.makeText(getApplicationContext(), "Password cant be empty", Toast.LENGTH_SHORT).show();
+                }
+
                 else
                 {
                     if(pass.equals(repass))

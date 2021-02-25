@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
 
 
                     Toast.makeText(getApplicationContext(),"Successfully Login",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Login.this, MainActivity.class);
+                    Intent intent = new Intent(Login.this, Profile.class);
                     startActivity(intent);
             }
         });
